@@ -23,7 +23,7 @@ class param:
     Pth = -50.0#25
   
 
-    epoch = 20
+    epoch = 200
     
     sigma =0.05
 
@@ -39,7 +39,7 @@ class param:
                [13,14,17,18,19],
                [20,15,16,12,24]]
     list=np.array(finaldata)
-    # np.random.shuffle(list)
+    np.random.shuffle(list)
    
 
 if __name__=="__main__":
