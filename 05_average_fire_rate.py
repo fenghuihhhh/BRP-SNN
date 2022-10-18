@@ -19,22 +19,22 @@ import os
 
 # UTF-8,csv
 
-arm = pd.read_csv('./Dataset_Nao/RArm.csv', header=None) 
+arm = pd.read_csv('Robot_RArm.csv', header=None) 
 arm.columns = ["Col1", "Col2", "Col3", "Col4", "Col5", "Col6"]
 X = arm[["Col1", "Col2", "Col5"]]  
 X = np.array(X)
-arm_test = pd.read_csv('./Dataset_Nao/RArm_test.csv', header=None)  
+arm_test = pd.read_csv('Robot_RArm_test.csv', header=None)  
 arm_test.columns = ["Col1", "Col2", "Col3", "Col4", "Col5", "Col6"]
 X_test = arm_test[["Col1", "Col2", "Col5"]]  
 X_test = np.array(X_test)
 
 
-vision=pd.read_csv('./Dataset_Nao/Vision.csv',header=None)
+vision=pd.read_csv('Robot_Vision.csv',header=None)
 vision1 = np.array(vision)
 vision.columns = ["Col1", "Col2", "Col3"]
 Y = vision[["Col3"]] 
 Y = np.array(Y)
-vision_test=pd.read_csv('./Dataset_Nao/Vision_test.csv',header=None)
+vision_test=pd.read_csv('Robot_Vision_test.csv',header=None)
 vision_test.columns = ["Col1", "Col2", "Col3"]
 Y_test = vision_test[["Col3"]]  
 Y_test = np.array(Y_test)
