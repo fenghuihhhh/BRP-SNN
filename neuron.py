@@ -1,9 +1,3 @@
-############################################################ README ##############################################################
-
-# This is neuron class which defines the dynamics of a neuron. All the parameters are initialised and methods are included to check
-# for spikes and apply lateral inhibition.
-
-###################################################################################################################################
 
 import numpy as np
 import random
