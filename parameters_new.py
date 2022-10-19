@@ -1,8 +1,5 @@
-################################################ README #########################################################
+#  all the parameters of the BRP-SNN.
 
-# This file contains all the parameters of the network.
-
-#################################################################################################################
 import numpy as np
 import random
 class param:
@@ -17,18 +14,18 @@ class param:
     n_error=25
     n_sensory=25
     
-    Pref = 0.#0
-    Prest = -65#0
+    Pref = 0.
+    Prest = -65
     Pmin = -5.0
-    Pth = -50.0#25
+    Pth = -50.0
   
 
     epoch = 200
     
     sigma =0.05
 
-    A_minus = 0.1 # time difference is positive i.e negative reinforcement
-    A_plus = 0.5 # 0.01 # time difference is negative i.e positive reinforcement
+    A_minus = 0.1 # time difference is positive
+    A_plus = 0.5 # 0.01 # time difference is negative 
 
     tau_plus = 10
     tau_minus = 10
