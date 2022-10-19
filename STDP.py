@@ -1,10 +1,10 @@
-# This file implements STDP curve and weight update rule
+# STDP 
 
 import numpy as np
 from matplotlib import pyplot as plt
 from parameters_new import param as par
 
-#STDP reinforcement learning curve
+
 def STDP(t):
 
 	if t>0:
@@ -29,24 +29,5 @@ def update_STDP(w, del_w):
 if __name__ == '__main__':
    
     print(update_STDP(0,STDP(-10)))
-    print(update_STDP(0,STDP(-9)))
-    print(update_STDP(0,STDP(-8)))
-    print(update_STDP(0,STDP(-7)))
-    print(update_STDP(0,STDP(-6)))
-    print(update_STDP(0,STDP(-5)))
-    print(update_STDP(0,STDP(-4)))
-    print(update_STDP(0,STDP(-3)))
-    print(update_STDP(0,STDP(-2)))
-    print(update_STDP(0,STDP(-1)))
-    print(update_STDP(0,STDP(-0)))
-    print(update_STDP(0,STDP(1)))
-    print(update_STDP(0,STDP(2)))
-    print(update_STDP(0,STDP(3)))
-    print(update_STDP(0,STDP(4)))
-    print(update_STDP(0,STDP(5)))
-    print(update_STDP(0,STDP(6)))
-    print(update_STDP(0,STDP(7)))
-    print(update_STDP(0,STDP(8)))
-    print(update_STDP(0,STDP(9)))
-    print(update_STDP(0,STDP(10)))
+
 
