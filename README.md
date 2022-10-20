@@ -9,3 +9,9 @@ Our BRP-SNN is running in real time on the Nao robot platform. In order to make 
      Python 3.8.0
 
      sklearn Toolkit
+     
+     
+ 2.Additional note: 
+ 
+ 
+ Our lab has developed a new spiking neural network platform--BrainCog(http://www.brain-cog.network), and we are deploying our code to it.
